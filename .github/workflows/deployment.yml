@@ -44,7 +44,7 @@ jobs:
 
     - name: пакинг минды в андроид
 
-      run: ./gradlew android:assembleDebug -Pbuildversion=126.2 -PverionType=release --stacktrace  
+      run: ./gradlew android:assembleDebug -Pbuildversion=127.1 -PverionType=release --stacktrace  
 
     - name: выгрузка JAR
 
