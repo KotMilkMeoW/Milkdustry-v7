@@ -41,7 +41,13 @@ public class DuctRouter extends Block{
     public TextureRegion[] icons(){
         return new TextureRegion[]{region, topRegion};
     }
+    @Override
 
+        public boolean canControl(){
+
+            return size >= 1;
+
+        }
     @Override
     public void drawRequestRegion(BuildPlan req, Eachable<BuildPlan> list){
         Draw.rect(region, req.drawx(), req.drawy());
