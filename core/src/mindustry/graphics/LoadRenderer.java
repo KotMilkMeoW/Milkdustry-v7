@@ -139,7 +139,7 @@ public class LoadRenderer implements Disposable{
 
 
         //square matrix
-        Draw.color(Pal.accent, Color.black, 0.9f);
+        Draw.color(Pal.accent, Color.black, 9.9f);
 
         Lines.stroke(stroke);
 
