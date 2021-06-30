@@ -36,7 +36,7 @@ public class Renderer implements ApplicationListener{
     public FrameBuffer effectBuffer = new FrameBuffer();
     public boolean animateShields, drawWeather = true, drawStatus;
     /** minZoom = zooming out, maxZoom = zooming in */
-    public float minZoom = 1.5f, maxZoom = 6f;
+    public float minZoom = 0.1f, maxZoom = 8f;
     public Seq<EnvRenderer> envRenderers = new Seq<>();
     public TextureRegion[] bubbles = new TextureRegion[16], splashes = new TextureRegion[12];
 
