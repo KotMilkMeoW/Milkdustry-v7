@@ -404,7 +404,8 @@ public class SchematicsDialog extends BaseDialog{
         });
     }
 
-            }
+            
+
     void showNewIconTag(Cons<String> cons){
         new Dialog(){{
             closeOnBack();
